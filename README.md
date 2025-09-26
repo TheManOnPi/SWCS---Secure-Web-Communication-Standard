@@ -1,5 +1,6 @@
 Status: In development
 Note: Everything here is subject to change
+## Please read WAS.md
 
 # SWCS — Secure Web Communication Standard (You need WAS as well)
 
