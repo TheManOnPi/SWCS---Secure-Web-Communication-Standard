@@ -1,4 +1,5 @@
 Status: In development
+Note: Everything here is subject to change
 
 # SWCS — Secure Web Communication Standard
 
@@ -10,7 +11,7 @@ Status: In development
 
 SWCS aims to replace or augment traditional HTTP/HTTPS with a standard that **builds safety, integrity, and resilience into the communication layer**. In practice this means: fewer scams, less abuse, no trackers, and a web where users are nudged toward help when they need it.
 
-This is not a polite suggestion. It’s a *middle finger* to the garbage that broke the web.
+This is not a polite suggestion. It’s a *middle finger* to the garbage that broke the web. Bc I dont like google :)
 
 ---
 
@@ -75,7 +76,7 @@ SWCS assumes active adversaries (malicious nodes, man-in-the-middle, poisoned co
 * **Toxic Links**: flagged links show an "Are you sure?" confirmation before navigation.
 * **Fake News**: flagged content is annotated; high‑confidence malicious sources can be blocked.
 
-All safety logic is multi‑factor: automated analyzers + network reputation + optional human review for edge cases.
+All safety logic is multi‑factor: automated analyzers + network reputation.
 
 ---
 
@@ -115,8 +116,8 @@ Nodes SHOULD expose sanitized metadata rather than raw blocked content. Example:
 
 ### Rules & updates
 
-* Official rule bundles live as releases in the GitHub repo and are signed.
-* Mirrors pull bundles and push anchor metadata to WAS Bank for discovery.
+* Official rule bundles live as releases in the GitHub repo and are signed. ps: Not made that file yet
+* Mirrors pull bundles and push anchor metadata to WAS Bank for discovery. ps: Not made that file yet
 * Nodes may operate in permissive (inform-only) or strict (enforce) modes depending on deployment.
 
 ---
@@ -125,12 +126,10 @@ Nodes SHOULD expose sanitized metadata rather than raw blocked content. Example:
 
 This repo is a specification and starter kit. Typical steps for a prototype WAS node:
 
-1. `git clone https://github.com/TheManOnPi/SWCS---Secure-Web-Communication-Standard.git`
+1. `git clone https://github.com/TheManOnPi/SWCS---Secure-Web-Communication-Standard.git` ps: This is a place holder link 
 2. Follow the `examples/` directory (TBD) to run a dev CloudLink server or connect to an existing one.
 3. Load a signed rule bundle from `releases/` or point the node to a trusted mirror.
 4. Start the WAS node; it will register with CloudLink and begin syncing.
-
-> NOTE: This repo is intentionally spec-first. Example code, clients, and production-ready servers should live in adjacent implementation repos.
 
 ---
 
@@ -142,7 +141,7 @@ SWCS defines safety constraints at the protocol level — but policy (who can ba
 * **Proposal Workflow**: public pull requests + review + multisig release process.
 * **Appeals & Rollback**: versioned bundles and easy rollback for false positives.
 
-Document governance clearly in `GOVERNANCE.md` for any production deployment.
+Document governance clearly in `GOVERNANCE.md` for any production deployment. ps: Not made that file yet
 
 ---
 
@@ -154,7 +153,7 @@ Contributions are welcome — follow these basics:
 * Use pull requests to propose edits to the spec; include rationale and tests/examples.
 * Major changes should include an explicit migration/compatibility plan.
 
-See `CONTRIBUTING.md` for detailed guidelines (TBD).
+See `CONTRIBUTING.md` for detailed guidelines (TBD). ps: Not made that file yet
 
 ---
 
