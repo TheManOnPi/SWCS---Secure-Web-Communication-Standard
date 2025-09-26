@@ -1,7 +1,7 @@
 Status: In development
 Note: Everything here is subject to change
 
-# SWCS — Secure Web Communication Standard
+# SWCS — Secure Web Communication Standard (You need WAS as well)
 
 > **SWCS** (Secure Web Communication Standard) is a next‑generation protocol layer and ecosystem for safe, private, and resilient web access. SWCS is implemented by **WAS** (Web Addressing Service) nodes and designed to make the web trustworthy again — ad‑free, integrity‑first, and user‑centric.
 
