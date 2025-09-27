@@ -2,16 +2,16 @@ Status: In development
 Note: Everything here is subject to change
 SWCS: Secure Web Communication Standard (the underlying transport layer).
 
-WAS Node: An implementation of the Web Addressing Service (client, proxy, or hybrid).
+WASfS Node: An implementation of the Web Addressing Service (client, proxy, or hybrid).
 
-WAS Bank: Canonical repository of rule bundles, bans, and trust anchors.
+WASfS Bank: Canonical repository of rule bundles, bans, and trust anchors.
 
 Mirror: Independently hosted copy of WAS Bank.
 
 CMD: Content Modification Detection — system for integrity verification.
 
 Context Analyzer: Module for parsing and flagging HTML/text content.
-# Please read WAS.md
+# Please read WASfS.md
 
 # SWCS — Secure Web Communication Standard (You need WAS as well)
 
@@ -38,7 +38,7 @@ This is not a polite suggestion. It’s a *middle finger* to the garbage that br
 
 ## Features (short)
 
-* WAS-based addressing and filtering
+* WASfS-based addressing and filtering
 * Mesh networking with CloudLink / WebSockets
 * Central rule store (WAS Bank) with mirrors
 * CMD — Content Modification Detection (hashing + verification)
