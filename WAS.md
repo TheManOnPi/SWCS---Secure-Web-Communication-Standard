@@ -1,4 +1,4 @@
-# WAS — Web Addressing Service for SWCS
+# WASfS — Web Addressing Service for SWCS
 
 > **WAS** (Web Addressing Service) is the core runtime component of SWCS, responsible for enforcing content rules, context analysis, and network synchronization across nodes.
 
