@@ -1,4 +1,5 @@
-Status: In development
+Status: Paused
+
 Note: Everything here is subject to change
 SWCS: Secure Web Communication Standard (the underlying transport layer).
 
